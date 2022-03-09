@@ -412,14 +412,31 @@ body {
 }
 
 .footerFt {
+  @media screen and(max-width:990px){
+    h5{
+      font-size: 14px;
+    }
+    li{
+      font-size: 12px !important;
+    }
+    .lastLine p{
+      font-size: 8px !important;
+    }
+    .btmLine {
+      display: flex;
+      justify-content: flex-start !important;
+    }
+    .lineP{
+      padding-bottom: 1px !important;
+    }
+  }
+
   background-color: #020636;
   padding-top: 50px;
   min-height: 500px;
   color: #f8f0e3;
 
-  .footerWrap {
-    padding-left: 70px;
-  }
+  
   .listings {
     list-style-type: none;
   }
@@ -428,7 +445,6 @@ body {
   }
   h5 {
     padding-bottom: 40px;
-    padding-left: 30px;
   }
   p {
     line-height: 2;
@@ -443,6 +459,7 @@ body {
     padding-top: 100px;
   }
   .btmLine {
-    padding-left: 361px;
+    display: flex;
+    justify-content: flex-end;
   }
 }
