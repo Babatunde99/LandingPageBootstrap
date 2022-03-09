@@ -496,8 +496,16 @@ body {
 .section5 {
   min-height: 700px;
   background-color: #f8f0e3;
-  padding-left: 55px;
   padding-top: 50px;
+}
+
+@media screen and (max-width: 990px) {
+  .section5 h1 {
+    font-size: 20px;
+  }
+  .section5 .accordion-button {
+    font-size: 16px !important;
+  }
 }
 
 .section5 h1 {
