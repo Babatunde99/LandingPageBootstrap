@@ -1,4 +1,4 @@
-body{
+body {
   overflow-x: hidden;
 }
 
@@ -36,11 +36,10 @@ body{
           color: #fff;
           font-size: 12px;
         }
-        &:hover{
-            transform: scale(1.05)
+        &:hover {
+          transform: scale(1.05);
         }
       }
-
 
       .apple {
         border: 1px solid #020636;
@@ -54,8 +53,8 @@ body{
           color: #020636;
           font-size: 12px;
         }
-        &:hover{
-            transform: scale(1.05)
+        &:hover {
+          transform: scale(1.05);
         }
       }
     }
@@ -66,6 +65,32 @@ body{
 }
 
 .section1 {
+  @media screen and (max-width: 990px) {
+    .nav {
+      flex-direction: column-reverse;
+    }
+    .blockV {
+      display: none;
+    }
+    .sec1-Wrap {
+      padding-top: 5px !important;
+    }
+    p {
+      font-size: 10px;
+    }
+    .download {
+      flex-direction: column;
+    }
+    .btn1 {
+      font-size: 12px;
+      width: 51%;
+    }
+    .btn2 {
+      font-size: 12px;
+      width: 51%;
+    }
+  }
+
   padding-top: 100px;
   .container {
     padding-top: 30px;
@@ -113,8 +138,8 @@ body{
     span {
       padding-left: 5px;
     }
-    &:hover{
-        transform: scale(1.05)
+    &:hover {
+      transform: scale(1.05);
     }
   }
   .btn2 {
@@ -128,16 +153,42 @@ body{
     span {
       padding-left: 10px;
     }
-    &:hover{
-        transform: scale(1.05)
+    &:hover {
+      transform: scale(1.05);
     }
   }
   .download {
-    gap: 30px;
+    gap: 15px;
   }
 }
 
 .section2 {
+  @media screen and (max-width: 990px) {
+    padding: 1em !important ;
+
+    .mobilePhone {
+      display: none;
+    }
+    h1 {
+      font-size: 20px;
+    }
+    h3 {
+      font-size: 15px;
+      width: 200px;
+      font-weight: 600;
+    }
+    p {
+      width: 250px;
+      font-size: 12px;
+    }
+    .smallRec {
+      align-self: baseline;
+    }
+    .download {
+      flex-direction: column;
+    }
+  }
+
   background-color: #f8f0e3;
   .middle {
     align-items: center;
@@ -166,11 +217,15 @@ body{
     text-decoration: none;
     color: whitesmoke;
     font-size: 14px;
+
+    @media screen and (max-width: 990px) {
+      width: 68%;
+    }
     span {
       padding-left: 5px;
     }
-    &:hover{
-        transform: scale(1.2)
+    &:hover {
+      transform: scale(0.95);
     }
   }
   .btn2 {
@@ -181,28 +236,52 @@ body{
     text-decoration: none;
     color: #f8f0e3;
     font-size: 14px;
+
+    @media screen and (max-width: 990px) {
+      width: 68%;
+    }
     span {
       padding-left: 10px;
     }
-    &:hover{
-        transform: scale(1.2)
+    &:hover {
+      transform: scale(0.95);
     }
   }
   .download {
-    gap: 30px;
-    padding-top: 50px;
+    gap: 10px;
+    padding-top: 40px;
   }
 }
 
 .section3 {
+  @media screen and (max-width: 990px) {
+    h1 {
+      font-size: 18px;
+    }
+    p {
+      font-size: 14px;
+    }
+    .Lrnbtn {
+      font-size: 14px;
+      padding: 10px 31px 10px 31px !important;
+    }
+    .lastP {
+      padding-bottom: 10px !important;
+    }
+    .boyG {
+      padding-top: 20px;
+    }
+    .section3wrapper {
+      padding-top: 30px !important;
+    }
+  }
+
   background-color: #f8f0e3;
-  padding-top: 80px;
+  padding-top: 30px;
   .section3wrapper {
-    padding-left: 100px;
-    padding-top: 200px;
+    padding-top: 150px;
   }
   p {
-    width: 400px;
     line-height: 2;
     display: flex;
     img {
@@ -222,8 +301,8 @@ body{
     border-radius: 10px;
     align-items: center;
 
-    &:hover{
-        transform: scale(0.95)
+    &:hover {
+      transform: scale(0.95);
     }
   }
   .lastP {
@@ -232,7 +311,22 @@ body{
 }
 
 .section4 {
-  background-image: url(/LandingPageBootstrap/images/Bg4.png);
+  @media screen and(max-width:990px) {
+    .slantP{
+      display: none;
+    }
+    h1 {
+      font-size: 16px;
+    }
+    h6 {
+      font-size: 10px !important;
+    }
+    .download{
+      flex-direction: column;
+    }
+  }
+
+  background-image: url(/images/Bg4.png);
   background-color: #020636;
   background-size: cover;
   background-position: 0 -223px;
@@ -246,7 +340,7 @@ body{
   }
   h6 {
     color: #aaa59e;
-    font-size: 12px;
+    font-size: 18px;
   }
 
   .btn1 {
@@ -260,8 +354,8 @@ body{
     span {
       padding-left: 5px;
     }
-    &:hover{
-        transform: scale(1.05)
+    &:hover {
+      transform: scale(1.05);
     }
   }
   .btn2 {
@@ -275,8 +369,8 @@ body{
     span {
       padding-left: 10px;
     }
-    &:hover{
-        transform: scale(1.05)
+    &:hover {
+      transform: scale(1.05);
     }
   }
   .download {
