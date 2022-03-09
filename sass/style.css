@@ -416,6 +416,12 @@ body {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  .section4 .btn1 {
+    width: 60%;
+  }
+  .section4 .btn2 {
+    width: 60%;
+  }
 }
 
 .section4 .sec4wrap {
