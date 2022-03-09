@@ -1,3 +1,7 @@
+body{
+  overflow-x: hidden;
+}
+
 .navbar {
   background-color: hsl(37, 60%, 93%);
   position: fixed;
@@ -235,21 +239,14 @@
   background-repeat: no-repeat;
 
   .sec4wrap {
-    padding-left: 110px;
-    .wrapper {
-      padding: 50px;
-      display: flex;
-      justify-content: center;
-    }
+    padding-top: 50px;
   }
   h1 {
-    width: 600px;
     color: #f8f0e3;
   }
   h6 {
     color: #aaa59e;
     font-size: 12px;
-    justify-content: center;
   }
 
   .btn1 {
@@ -285,10 +282,12 @@
   .download {
     gap: 15px;
     padding-top: 50px;
+    padding-bottom: 50px;
     justify-content: center;
   }
   .slantP {
     padding-bottom: 30px;
+    padding-left: 250px;
   }
 }
 

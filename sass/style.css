@@ -1,3 +1,7 @@
+body {
+  overflow-x: hidden;
+}
+
 .navbar {
   background-color: #f8f0e2;
   position: fixed;
@@ -302,30 +306,16 @@
 }
 
 .section4 .sec4wrap {
-  padding-left: 110px;
-}
-
-.section4 .sec4wrap .wrapper {
-  padding: 50px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  padding-top: 50px;
 }
 
 .section4 h1 {
-  width: 600px;
   color: #f8f0e3;
 }
 
 .section4 h6 {
   color: #aaa59e;
   font-size: 12px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 
 .section4 .btn1 {
@@ -373,6 +363,7 @@
 .section4 .download {
   gap: 15px;
   padding-top: 50px;
+  padding-bottom: 50px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -380,6 +371,7 @@
 
 .section4 .slantP {
   padding-bottom: 30px;
+  padding-left: 250px;
 }
 
 .section5 {
