@@ -3,6 +3,12 @@ body {
 }
 
 .navbar {
+  @media screen and (max-width: 990px) {
+    .download {
+      display: none !important;
+    }
+  }
+
   background-color: hsl(37, 60%, 93%);
   position: fixed;
   width: 100%;
@@ -14,9 +20,10 @@ body {
       margin: auto;
       display: flex;
       justify-content: space-between;
-      width: 40vw;
+
       .nav-link {
         color: rgba(2, 6, 54, 1);
+        padding-right: 70px;
       }
 
       .nav-link:active {
@@ -72,6 +79,14 @@ body {
     .blockV {
       display: none;
     }
+    .opnLetter {
+      padding-top: 20px;
+      color: #f8f0e3;
+      padding-bottom: 30px;
+      h1 {
+        font-size: 30px !important;
+      }
+    }
     .sec1-Wrap {
       padding-top: 5px !important;
     }
@@ -106,10 +121,13 @@ body {
       color: #f8f0e3;
     }
   }
-  .fs-1 {
+  .opnLetter {
     padding-top: 40px;
     color: #f8f0e3;
     padding-bottom: 30px;
+    h1 {
+      font-size: 60px;
+    }
   }
   .pp {
     color: rgba(248, 240, 227, 0.8);
@@ -208,7 +226,6 @@ body {
     position: absolute;
     z-index: 0;
     top: 733px;
-
   }
   .btn1 {
     background: #14110b;
@@ -313,7 +330,7 @@ body {
 
 .section4 {
   @media screen and(max-width:990px) {
-    .slantP{
+    .slantP {
       display: none;
     }
     h1 {
@@ -322,13 +339,13 @@ body {
     h6 {
       font-size: 10px !important;
     }
-    .download{
+    .download {
       flex-direction: column;
     }
-    .btn1{
+    .btn1 {
       width: 60%;
     }
-    .btn2{
+    .btn2 {
       width: 60%;
     }
   }
@@ -393,11 +410,11 @@ body {
 }
 
 .section5 {
-  @media screen and (max-width:990px){
-    h1{
+  @media screen and (max-width: 990px) {
+    h1 {
       font-size: 20px;
     }
-    .accordion-button{
+    .accordion-button {
       font-size: 16px !important;
     }
   }
@@ -413,25 +430,29 @@ body {
 }
 
 .footerFt {
-  @media screen and(max-width:990px){
-    .Pp{
+  @media screen and(max-width:990px) {
+    .Pp {
       font-size: 12px;
     }
-    h5{
-      font-size: 14px;
+    h5 {
+      font-size: 18px;
+      padding-bottom: 10px !important;
     }
-    li{
+    li {
       font-size: 12px !important;
     }
-    .lastLine p{
+    .lastLine p {
       font-size: 8px !important;
     }
     .btmLine {
       display: flex;
       justify-content: flex-start !important;
     }
-    .lineP{
+    .lineP {
       padding-bottom: 1px !important;
+    }
+    .btmLine {
+      align-self: center;
     }
   }
 
@@ -440,30 +461,30 @@ body {
   min-height: 500px;
   color: #f8f0e3;
 
-  
-  .listings {
-    list-style-type: none;
-  }
   img {
-    padding-bottom: 30px;
+    padding-bottom: 20px;
   }
   h5 {
-    padding-bottom: 40px;
+    padding-bottom: 30px;
   }
   p {
     line-height: 2;
     font-size: 14px;
-    padding-bottom: 30px;
+    // padding-bottom: 30px;
   }
   li {
     font-size: 14px;
     line-height: 2;
   }
   .lastLine {
-    padding-top: 100px;
-  }
-  .btmLine {
+    padding-top: 40px;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
+    font-size: 12px;
+
+    .btmLine {
+      display: flex;
+      justify-content: flex-end;
+    }
   }
 }

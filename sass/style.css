@@ -10,6 +10,12 @@ body {
   z-index: 2;
 }
 
+@media screen and (max-width: 990px) {
+  .navbar .download {
+    display: none !important;
+  }
+}
+
 .navbar .collapse .navbar-nav {
   margin: auto;
   display: -webkit-box;
@@ -18,11 +24,11 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  width: 40vw;
 }
 
 .navbar .collapse .navbar-nav .nav-link {
   color: #020636;
+  padding-right: 70px;
 }
 
 .navbar .collapse .navbar-nav .nav-link:active {
@@ -93,6 +99,14 @@ body {
   .section1 .blockV {
     display: none;
   }
+  .section1 .opnLetter {
+    padding-top: 20px;
+    color: #f8f0e3;
+    padding-bottom: 30px;
+  }
+  .section1 .opnLetter h1 {
+    font-size: 30px !important;
+  }
   .section1 .sec1-Wrap {
     padding-top: 5px !important;
   }
@@ -130,10 +144,14 @@ body {
   color: #f8f0e3;
 }
 
-.section1 .fs-1 {
+.section1 .opnLetter {
   padding-top: 40px;
   color: #f8f0e3;
   padding-bottom: 30px;
+}
+
+.section1 .opnLetter h1 {
+  font-size: 60px;
 }
 
 .section1 .pp {
@@ -528,7 +546,8 @@ body {
     font-size: 12px;
   }
   .footerFt h5 {
-    font-size: 14px;
+    font-size: 18px;
+    padding-bottom: 10px !important;
   }
   .footerFt li {
     font-size: 12px !important;
@@ -547,24 +566,24 @@ body {
   .footerFt .lineP {
     padding-bottom: 1px !important;
   }
-}
-
-.footerFt .listings {
-  list-style-type: none;
+  .footerFt .btmLine {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
 }
 
 .footerFt img {
-  padding-bottom: 30px;
+  padding-bottom: 20px;
 }
 
 .footerFt h5 {
-  padding-bottom: 40px;
+  padding-bottom: 30px;
 }
 
 .footerFt p {
   line-height: 2;
   font-size: 14px;
-  padding-bottom: 30px;
 }
 
 .footerFt li {
@@ -573,10 +592,17 @@ body {
 }
 
 .footerFt .lastLine {
-  padding-top: 100px;
+  padding-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 12px;
 }
 
-.footerFt .btmLine {
+.footerFt .lastLine .btmLine {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
