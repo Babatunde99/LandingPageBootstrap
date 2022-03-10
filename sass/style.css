@@ -524,6 +524,9 @@ body {
 }
 
 @media screen and (max-width: 990px) {
+  .footerFt .Pp {
+    font-size: 12px;
+  }
   .footerFt h5 {
     font-size: 14px;
   }
