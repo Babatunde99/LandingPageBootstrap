@@ -258,8 +258,8 @@ body {
 
 .section2 .mobilePhone {
   position: absolute;
-  z-index: 1;
-  bottom: -950px;
+  z-index: 0;
+  top: 733px;
 }
 
 .section2 .btn1 {

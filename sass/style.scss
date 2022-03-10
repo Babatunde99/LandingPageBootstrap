@@ -206,8 +206,9 @@ body {
   }
   .mobilePhone {
     position: absolute;
-    z-index: 1;
-    bottom: -950px;
+    z-index: 0;
+    top: 733px;
+
   }
   .btn1 {
     background: #14110b;
