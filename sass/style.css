@@ -121,11 +121,11 @@ body {
   }
   .section1 .btn1 {
     font-size: 12px;
-    width: 51%;
+    width: 150px;
   }
   .section1 .btn2 {
     font-size: 12px;
-    width: 51%;
+    width: 150px;
   }
 }
 
@@ -290,11 +290,12 @@ body {
   text-decoration: none;
   color: whitesmoke;
   font-size: 14px;
+  width: 150px;
 }
 
 @media screen and (max-width: 990px) {
   .section2 .btn1 {
-    width: 68%;
+    width: 150px;
   }
 }
 
@@ -317,11 +318,12 @@ body {
   text-decoration: none;
   color: #f8f0e3;
   font-size: 14px;
+  width: 150px;
 }
 
 @media screen and (max-width: 990px) {
   .section2 .btn2 {
-    width: 68%;
+    width: 150px;
   }
 }
 
@@ -435,10 +437,10 @@ body {
             flex-direction: column;
   }
   .section4 .btn1 {
-    width: 60%;
+    width: 200px;
   }
   .section4 .btn2 {
-    width: 60%;
+    width: 200px;
   }
 }
 

@@ -98,11 +98,11 @@ body {
     }
     .btn1 {
       font-size: 12px;
-      width: 51%;
+      width: 150px;
     }
     .btn2 {
       font-size: 12px;
-      width: 51%;
+      width: 150px;
     }
   }
 
@@ -235,9 +235,10 @@ body {
     text-decoration: none;
     color: whitesmoke;
     font-size: 14px;
+    width: 150px;
 
     @media screen and (max-width: 990px) {
-      width: 68%;
+      width: 150px;
     }
     span {
       padding-left: 5px;
@@ -254,9 +255,10 @@ body {
     text-decoration: none;
     color: #f8f0e3;
     font-size: 14px;
+    width: 150px;
 
     @media screen and (max-width: 990px) {
-      width: 68%;
+      width: 150px;
     }
     span {
       padding-left: 10px;
@@ -343,10 +345,10 @@ body {
       flex-direction: column;
     }
     .btn1 {
-      width: 60%;
+      width: 200px;
     }
     .btn2 {
-      width: 60%;
+      width: 200px;
     }
   }
 
